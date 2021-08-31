@@ -5,16 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inverse | Modulo</title>
+    <script src="./index.js"></script>
+    <style>
+        .container {
+            display: inline-grid;
+            display: flex;
+            justify-content: center;
+        }
+        td{
+            padding: 12px;
+        }
+        input{
+            height: 32px;
+        }
+        input[type=number]{
+            padding-left: 16px;
+        }
+        input[type=text]{
+            text-align: center;
+        }
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+    </style>
 </head>
 <body>
-    <div>
+    <div class="container">
         <form>
-            <CENTER>
-            <table border = 0 cellspacing = 2 cellpading = 1>
+            <table border = 0 cellspacing = 2 cellpading = 1 >
                 <tr>
-                    <TD ROWSPAN="2"><IMG SRC="../icones/engrenage.gif" WIDTH="50" HEIGHT="58"></TD>
-                    <TD BGCOLOR="#6699CC">&nbsp;&nbsp;&nbsp;&nbsp;<INPUT NAME="b" TYPE=Text SIZE="10" VALUE=5> <SUP><SUP>-1</SUP></SUP>&nbsp;&nbsp; <B>mod</B> &nbsp;&nbsp;<INPUT NAME="n" TYPE=Text SIZE="10" VALUE=77>&nbsp;&nbsp;<B>=</B>&nbsp;&nbsp;<INPUT NAME="res" TYPE=Text SIZE="10">&nbsp;&nbsp;&nbsp;</TD>
-                    <TD ROWSPAN="2" BGCOLOR="#6699CC">&nbsp;&nbsp;&nbsp;<INPUT NAME="calcul" TYPE=Button VALUE="Calcul" onClick="euclide(b.value,n.value,res)">&nbsp;&nbsp;&nbsp;</TD>
+                    <td bgcolor="#6699CC">
+                        <input name="b" type="number" min="0" size="10" value="5">
+                        <sup><sup>-1</sup></sup>
+                        <strong>mod</stron>
+                        <input name="n" type="number" min="0" size="10" value="77">
+                        <strong>=</strong>
+                        <input name="res" type="text" min="0" size="10" readonly>
+                    </td>
+                    <td rowspan="2" bgcolor="#6699CC">
+                        <input name="calcul" type=Button value="Calcul" onClick="euclide(b.value,n.value,res)">
+                    </td>
                 </tr>
             </table>
         </form>
