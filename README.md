@@ -38,4 +38,12 @@ Exemple de previsualisation,
 ```
 ![Exemple sur la page HTML](./img/img.png)
 # Demo en ligne
+<a href="https://rawcdn.githack.com/davmaene/inverse-modulo/c077b5f91cb2db47eb8b105e4c736819d0fd4ee8/index.html">
+Pour une prévisualisation en ligne 
+</a>
+<br><br>
+<a href="https://raw.githack.com/davmaene/inverse-modulo/main/index.html">
+Ou cette URL prévisualisation en ligne 
+</a>
+
 
