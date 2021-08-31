@@ -1,4 +1,4 @@
-# inverse-modulo
+# Inverse-Modulo ( b <sup>-1</sup> modulo (n) )
 un simple algo de calcul de l'inverse d'un nombre
 # Hypothèse
 ```
