@@ -1,6 +1,6 @@
 # Inverse-Modulo ( b <sup>-1</sup> modulo (n) )
 ``` 
-Un simple algo de calcul de l'inverse d'un nombre 
+Un simple algo de calcul de l'inverse modulo d'un nombre 
 
 ```
 # Hypothèse
@@ -34,6 +34,6 @@ Si bo  1 alors b n'a pas d'inverse modulo n, sinon b-1 mod n = t
 ```
 # Preview
 ```
-Exemple de previsualisation
+Exemple de previsualisation, 
 ```
 ![Exemple sur la page HTML](./img/img.png)
