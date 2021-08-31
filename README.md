@@ -33,4 +33,6 @@ Si bo  1 alors b n'a pas d'inverse modulo n, sinon b-1 mod n = t
 
 ```
 # Preview
-
+```
+![Exemple sur la page HTML](image.png)
+```
