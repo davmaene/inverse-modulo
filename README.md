@@ -43,7 +43,7 @@ Pour une prévisualisation en ligne
 </a>
 <br><br>
 <a href="https://raw.githack.com/davmaene/inverse-modulo/main/index.html">
-Ou cette URL prévisualisation en ligne 
+Ou cette URL pour la prévisualisation en ligne 
 </a>
 
 
